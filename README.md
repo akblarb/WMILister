@@ -19,7 +19,13 @@ Updated WMILister to v3.4.  Improved cleaning, improved error handling, Typo in 
 `cscript //nologo WMILister.vbs`
 
 
+If scripts are found, you will be prompted to remove them.  The prompt will remove all scripts it finds if you tell it to.  Here is an example output for scripts found with likely compromised IP Addresses:
 
+![WMILister_ShowingDetection](/images/WMILister_ShowingDetection.png)
+
+Example of compromised IPs inside of log file:
+
+![LogShowingCompromised](/images/LogShowingCompromised.png)
 
 ## Advanced use:
 
@@ -46,3 +52,5 @@ These are the possible commands to scan and clean remote machines (Port 135 inbo
 `cscript //nologo WMILister.vbs /s:MachineName /f`
 
 `cscript //nologo WMILister.vbs /s:10.20.30.40 /f`
+
+![WMILister_Help](/images/WMILister_Help.png)
