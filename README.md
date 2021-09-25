@@ -4,7 +4,7 @@
 **WMILister** is intended to help find and remove THREATS using WMI to persist on a computer.
 
 
-**ScanAllIPsOnNetwork** can help you quickly run WMILister against other computers on your network.  ScanAll has a simple user interface to allow you to .  Simply download both WMILister and ScanAll to the same directory, then open a command prompt as domain admin, change directories to where you saved the utilities, then run the command:
+**ScanAllIPsOnNetwork** can help you quickly run WMILister against other computers on your network.  ScanAll has a simple user interface to allow you to swiftly configure it and start scanning your network.  Simply download both WMILister and ScanAll to the same directory, then open a command prompt as domain admin, change directories to where you saved the utilities, then run the command:
 
 `powershell -ExecutionPolicy Bypass -File ScanAllIPsOnNetwork.ps1`
 
